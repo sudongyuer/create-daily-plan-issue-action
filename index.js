@@ -19,7 +19,7 @@ function createIssue(octokit) {
 }
 
 function getBody() {
-  return "[开启鱼鱼的每日任务]";
+  return "[开启鱼鱼🐟的每日任务]";
 }
 
 function getTitle() {
