@@ -11,15 +11,15 @@ const dayjs = require("dayjs");
 
 function createIssue(octokit) {
   octokit.rest.issues.create({
-    owner: "cuixiaorui",
-    repo: "study-every-day",
+    owner: "sudongyuer",
+    repo: "daily-study",
     title: getTitle(),
     body: getBody(),
   });
 }
 
 function getBody() {
-  return "[如何写每日任务](https://github.com/cuixiaorui/study-every-day/blob/main/sed/daily-task.md)";
+  return "[开启鱼鱼的每日任务]";
 }
 
 function getTitle() {

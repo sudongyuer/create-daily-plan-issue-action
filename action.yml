@@ -1,7 +1,7 @@
 name: "Create Daily plan Issue"
-description: "automatic create daily plan issue for cuixiaorui/study-every-day"
+description: "automatic create daily plan issue for sudongyuer/daily-study"
 inputs:
-  token: 
+  token:
     description: "github token"
     required: true
 runs:

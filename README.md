@@ -1,6 +1,6 @@
 # Create Daily plan Issue Action
 
-automatic create daily plan issue for cuixiaorui/study-every-day
+automatic create daily plan issue for sudongyuer/daily-study
 
 ## Inputs
 
@@ -10,7 +10,7 @@ automatic create daily plan issue for cuixiaorui/study-every-day
 
 ## Example usage
 
-uses: cuixiaorui/create-daily-plan-issue-action@main
+uses: sudongyuer/create-daily-plan-issue-action@main
 
 with:
 token: 'github token'
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: create daily plan issue action step
-        uses: cuixiaorui/create-daily-plan-issue-action@main
+        uses: sudongyuer/create-daily-plan-issue-action@main
         env:
           TOKEN: ${{ secrets.TOKEN }}
         with:
